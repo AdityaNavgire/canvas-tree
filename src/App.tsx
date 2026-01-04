@@ -1,11 +1,11 @@
+import CanvasBoard from "./pages/canvas-board/CanvasBoard";
+
 const App = () => {
   return (
     <div>
-      <h3>This is Canvas tree</h3>
+      <CanvasBoard />
     </div>
   );
 };
 
-
 export default App;
-
